@@ -1,0 +1,36 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="action_settings">Налаштування</string>
+    <string name="title_activity_detail">Подробиці</string>
+    <string name="title_activity_settings">Налаштування</string>
+    <string name="pref_location_label">Місцезнаходження</string>
+    <string name="pref_units_label">Система вимірювання</string>
+    <string name="action_map">Місцезнаходження</string>
+    <string name="action_share">Поділитися</string>
+    <string name="pref_units_metric">Метрична</string>
+    <string name="pref_units_imperial">Імперіальна</string>
+    <string name="action_refresh">Оновити</string>
+    <string name="format_humidity">Вологість: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <string name="format_pressure">Тиск: <xliff:g id="pressure">%1.0f</xliff:g> мБар</string>
+    <string name="format_wind_kmh">Швидкість Вітру: <xliff:g id="speed">%1$1.0f</xliff:g> км/г <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_mph">Швидкість Вітру: <xliff:g id="speed">%1$1.0f</xliff:g> миль/г <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="today">Сьогодні</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="pref_units_default">Метрична</string>
+    <string name="wind_east">Східний</string>
+    <string name="wind_north">Північний</string>
+    <string name="wind_south">Південний</string>
+    <string name="wind_west">Західний</string>
+    <string name="wind_unknow">Невідомий напрямок</string>
+    <string name="wind_south_west">Південно-західний</string>
+    <string name="wind_south_east">Південно-східний</string>
+    <string name="wind_north_west">Північно-західний</string>
+    <string name="wind_north_east">Північно-східний</string>
+    <string name="language">uk</string>
+    <string name="pref_location_default">Киев</string>
+    <string name="noInternetConnection">Немає підключення до інтернету</string>
+    <string name="pref_enable_notifications_false">Вимкнено</string>
+    <string name="pref_enable_notifications_label">Повідомлення</string>
+    <string name="pref_enable_notifications_true">Увімкнено</string>
+    <string name="format_notification">Прогноз: <xliff:g id="condition">%1$s</xliff:g> Макс: <xliff:g id="high">%2$s</xliff:g> Мін: <xliff:g id="low">%3$s</xliff:g></string>
+
+</resources>

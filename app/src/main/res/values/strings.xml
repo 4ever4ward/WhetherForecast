@@ -1,0 +1,84 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Whether Forecast</string>
+
+
+    <!-- Menu labels -->
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+
+
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Language for display forecast-->
+    <string name="language">en</string>
+
+    <!-- Strings for the location preference -->
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default">New York</string>
+
+    <!-- Strings for the temperature units preference -->
+    <string name="pref_units_metric">Metric</string>
+    <string name="pref_units_imperial">Imperial</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_default">Metric</string>
+
+    <!-- Labels for entries of temperature units -->
+    <string-array name="pref_units_values">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <!-- Values for entries of temperature units -->
+    <string-array name="pref_units_options">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="format_full_friendly_date" translatable="false"><xliff:g id="day">%1$s</xliff:g>,  <xliff:g id="date">%2$s</xliff:g></string>
+
+    <string name="format_temperature" translatable="false"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <string name="wind_unknow">Unknow</string>
+    <string name="wind_north">North</string>
+    <string name="wind_south">South</string>
+    <string name="wind_west">West</string>
+    <string name="wind_east">East</string>
+    <string name="wind_north_east">North-east</string>
+    <string name="wind_north_west">North-west</string>
+    <string name="wind_south_east">South-east</string>
+    <string name="wind_south_west">South-west</string>
+
+    <!-- Windspeed formats -->
+    <string name="format_wind_mph">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_kmh">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <string name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <string name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+    <string name="noInternetConnection">No internet connection</string>
+
+    <string name="sync_account_type" translatable="false">weather.matvienko_apps.ua</string>
+    <string name="content_authority" translatable="false">ua.matvienko_apps.whetherinyourhands</string>
+
+    <string name="format_notification">Forecast: <xliff:g id="condition">%1$s</xliff:g> High: <xliff:g id="high">%2$s</xliff:g> Low: <xliff:g id="low">%3$s</xliff:g></string>
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification" translatable="false">last_notification</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">Weather Notifications</string>
+
+    <string name="pref_enable_notifications_true">Enabled</string>
+    <string name="pref_enable_notifications_false">Not Enabled</string>
+    <string name="pref_enable_notifications_default" translatable="false">true</string>
+
+</resources>
